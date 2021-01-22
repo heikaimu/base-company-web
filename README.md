@@ -1,1 +1,1 @@
-# base-company-web
+# 静态页面基础模板
