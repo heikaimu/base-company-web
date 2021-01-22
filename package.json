@@ -1,0 +1,13 @@
+{
+  "name": "campany",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch scss/app.scss:css/app.css --sourcemap=none --no-cache --style expanded",
+    "start": "live-server ./"
+  },
+  "author": "Yaowen Liu",
+  "license": "ISC"
+}
