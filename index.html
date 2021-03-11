@@ -4,7 +4,7 @@
  * @Autor: Yaowen Liu
  * @Date: 2020-05-01 09:06:12
  * @LastEditors: Yaowen Liu
- * @LastEditTime: 2021-03-11 16:33:25
+ * @LastEditTime: 2021-03-11 17:12:26
  -->
 <!DOCTYPE html>
 <html lang="en">
@@ -20,6 +20,7 @@
 
 <body>
 
+  <!-- header -->
   <header class="web-header fixed active">
     <div class="header-container">
       <!-- logo -->
@@ -61,8 +62,57 @@
     </div>
   </header>
   
-  <div class="banner">
+  <!-- banner -->
+  <div class="web-banner">
     <img src="./example_images/picture.jpg" alt="">
+  </div>
+
+  <!-- footer -->
+  <footer class="web-footer">
+    <div class="top">
+      <div class="left">
+        <nav class="footer-nav">
+          <a class="link" href="./index.html">官方首页</a>
+          <a class="link" href="./aboutus.html">宠物知识</a>
+          <a class="link" href="">火化案例</a>
+          <a class="link" href="">常见问题</a>
+          <a class="link" href="">联系我们</a>
+        </nav>
+      </div>
+      <div class="right">
+        <ul class="third-list">
+          <li class="item"><a href=""><span class="iconfont icon-wechat-fill"></span></a></li>
+          <li class="item"><a href=""><span class="iconfont icon-QQ"></span></a></li>
+          <li class="item"><a href=""><span class="iconfont icon-weibo"></span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="left">
+        <!-- 友情链接 -->
+        <div class="web-footer__links">
+          <select class="select" name="link" id="footer_link">
+            <option value='' disabled selected style='display:none;'>友情链接</option>
+            <option value="baidu">百度</option>
+            <option value="tengxun">腾讯</option>
+            <option value="ali">阿里</option>
+            <option value="3">Google</option>
+            <option value="3">Facebook</option>
+          </select>
+          <span class="iconfont icon-xiajiantou"></span>
+        </div>
+      </div>
+      <div class="right">
+        <div class="footer-logo"><img src="./images/logo.jpeg" alt="" srcset=""></div>
+      </div>
+    </div>
+  </footer>
+  <div class="copy-right">
+    <p class="main-text">Copyright © 2016 四川成都宠灵有限公司. All rights reserved. <a href="">蜀ICP备12010316号</a> 闽公网安备35021302000122号</p>
+    <div class="footer-phone">
+      <a href="" class="number">400-888-0661</a>
+      <p class="desc">全国免费客户服务热线</p>
+    </div>
   </div>
 
   <script src="./js/jquery.js"></script>

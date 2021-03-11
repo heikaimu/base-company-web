@@ -4,7 +4,7 @@
  * @Autor: Yaowen Liu
  * @Date: 2021-01-30 17:06:51
  * @LastEditors: Yaowen Liu
- * @LastEditTime: 2021-03-11 16:41:20
+ * @LastEditTime: 2021-03-11 17:09:41
  */
 $(function () {
 
@@ -54,6 +54,15 @@ $(function () {
             })
         })
 
+    })()
+
+
+    !(function () {
+        // 底部友情链接
+        $("#footer_link").change(function () {
+            var link = $(this).val();
+            window.open(link);
+        })
     })()
 
 })

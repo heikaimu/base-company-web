@@ -2,11 +2,12 @@
 @import "./base/reset.scss";
 @import "./base/variables.scss";
 @import "./base/mixin.scss";
-@import "./base/fonts.scss";
+@import "../fonts/iconfont.css";
 @import "./base/my-animations";
 @import "./base/button.scss";
 // 页面
 @import "./page/header.scss";
+@import "./page/footer.scss";
 @import "./page/layout.scss";
 @import "./page/common.scss";
 @import "./page/index.scss";
