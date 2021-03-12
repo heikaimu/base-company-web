@@ -1,0 +1,8 @@
+.web-banner {
+  @include bg-cover;
+  height: 100vh;
+}
+
+.none {
+  display: none;
+}

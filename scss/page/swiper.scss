@@ -1,0 +1,5 @@
+// 全屏主banner
+.full-page-slide {
+  @include bg-cover;
+  height: 100vh;
+}

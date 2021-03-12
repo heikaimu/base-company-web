@@ -1130,10 +1130,36 @@ a.animated-button.thar-four:before {
   color: #ffffff;
 }
 
+.full-page-slide {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
 .container {
-  width: 100%;
-  max-width: 1200px;
+  padding: 0 10%;
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 0 10px;
+}
+
+.web-banner {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.none {
+  display: none;
+}
+
+.web-banner {
+  position: relative;
+}
+.web-banner .info-wrapper {
+  position: absolute;
+  bottom: 55px;
+  left: 135px;
+  right: 135px;
 }

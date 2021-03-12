@@ -4,7 +4,7 @@
  * @Autor: Yaowen Liu
  * @Date: 2020-05-01 09:06:12
  * @LastEditors: Yaowen Liu
- * @LastEditTime: 2021-03-11 17:12:26
+ * @LastEditTime: 2021-03-12 11:26:01
  -->
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +13,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>网站首页</title>
+  <title></title>
   <link rel="stylesheet" href="./plugins/swiper/swiper.min.css">
   <link rel="stylesheet" href="./css/app.css">
 </head>
@@ -21,7 +21,7 @@
 <body>
 
   <!-- header -->
-  <header class="web-header fixed active">
+  <header class="web-header fixed active none">
     <div class="header-container">
       <!-- logo -->
       <a href="/" class="web-logo" title="成龙"><img src="./images/logo.jpeg" alt=""></a>
@@ -61,14 +61,374 @@
       </div>
     </div>
   </header>
-  
+
   <!-- banner -->
   <div class="web-banner">
-    <img src="./example_images/picture.jpg" alt="">
+
+    <div class="swiper-container main-banner-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="full-page-slide" style="background-image: url(./example_images/picture.jpg);"></div>
+        </div>
+      </div>
+
+      <!-- 如果需要分页器 -->
+      <div class="swiper-pagination"></div>
+
+      <!-- 如果需要导航按钮 -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+    <div class="info-wrapper">
+      <ul class="info-list">
+        <li class="item">
+          <div class="card">
+            <div class="icon">
+              <span class="iconfont icon-wechat-fill"></span>
+            </div>
+            <div class="info">
+              <p class="title">宠物知识</p>
+              <p class="text">更多案例尽在宠灵</p>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="card">
+            <div class="icon">
+              <span class="iconfont icon-wechat-fill"></span>
+            </div>
+            <div class="info">
+              <p class="title">宠物知识</p>
+              <p class="text">更多案例尽在宠灵</p>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="card">
+            <div class="icon">
+              <span class="iconfont icon-wechat-fill"></span>
+            </div>
+            <div class="info">
+              <p class="title">宠物知识</p>
+              <p class="text">更多案例尽在宠灵</p>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="card">
+            <div class="icon">
+              <span class="iconfont icon-wechat-fill"></span>
+            </div>
+            <div class="info">
+              <p class="title">宠物知识</p>
+              <p class="text">更多案例尽在宠灵</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 
+
+  <!-- section1 -->
+  <section class="home-section1">
+    <div class="container">
+      <div class="left">
+        <div class="form-wrapper">
+          <div class="row">
+            <div class="half">
+              <input type="text">
+            </div>
+            <div class="half">
+              <input type="text">
+            </div>
+          </div>
+          <div class="row">
+            <div class="full">
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="img-wrapper">
+          <img src="./images/logo.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section2 -->
+  <section class="home-section2">
+    <div class="container">
+      <div class="s2-box">
+        <p class="title">标题</p>
+        <p class="context">让主人和爱宠，和睦告别，彼此留下美好回忆。让主人和爱宠，和睦告别，彼此留下美好回忆。</p>
+        <a href="" class="link">立即咨询</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- section3 -->
+  <section class="home-section3">
+    <div class="container">
+      <div class="left">
+        <ul class="s3-list">
+          <li class="item">
+            <div class="card">
+              <div class="icon">icon</div>
+              <div class="info">
+                <p class="title">标题</p>
+                <p class="desc">描述描述描述</p>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="card">
+              <div class="icon">icon</div>
+              <div class="info">
+                <p class="title">标题</p>
+                <p class="desc">描述描述描述</p>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="card">
+              <div class="icon">icon</div>
+              <div class="info">
+                <p class="title">标题</p>
+                <p class="desc">描述描述描述</p>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="card">
+              <div class="icon">icon</div>
+              <div class="info">
+                <p class="title">标题</p>
+                <p class="desc">描述描述描述</p>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="card">
+              <div class="icon">icon</div>
+              <div class="info">
+                <p class="title">标题</p>
+                <p class="desc">描述描述描述</p>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="card">
+              <div class="icon">icon</div>
+              <div class="info">
+                <p class="title">标题</p>
+                <p class="desc">描述描述描述</p>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="card">
+              <div class="icon">icon</div>
+              <div class="info">
+                <p class="title">标题</p>
+                <p class="desc">描述描述描述</p>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="card">
+              <div class="icon">icon</div>
+              <div class="info">
+                <p class="title">标题</p>
+                <p class="desc">描述描述描述</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="right">
+        <div class="img-wrapper">
+          <img src="./images/logo.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section4 -->
+  <section class="home-section4">
+    <div class="container">
+      <ul class="s4-list">
+        <li class="item">
+          <div class="card">
+            <div class="icon">icon</div>
+            <p class="text">1.客户咨询</p>
+          </div>
+        </li>
+        <li class="item">
+          <div class="card">
+            <div class="icon">icon</div>
+            <p class="text">1.客户咨询</p>
+          </div>
+        </li>
+        <li class="item">
+          <div class="card">
+            <div class="icon">icon</div>
+            <p class="text">1.客户咨询</p>
+          </div>
+        </li>
+        <li class="item">
+          <div class="card">
+            <div class="icon">icon</div>
+            <p class="text">1.客户咨询</p>
+          </div>
+        </li>
+        <li class="item">
+          <div class="card">
+            <div class="icon">icon</div>
+            <p class="text">1.客户咨询</p>
+          </div>
+        </li>
+        <li class="item">
+          <div class="card">
+            <div class="icon">icon</div>
+            <p class="text">1.客户咨询</p>
+          </div>
+        </li>
+        <li class="item">
+          <div class="card">
+            <div class="icon">icon</div>
+            <p class="text">1.客户咨询</p>
+          </div>
+        </li>
+        <li class="item">
+          <div class="card">
+            <div class="icon">icon</div>
+            <p class="text">1.客户咨询</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- section5 -->
+  <section class="home-section5">
+    <div class="container">
+      <div class="left">
+        <div class="service-intro-card">
+          <p class="title">费用包含</p>
+          <ol>
+            <li>1.dawdawdad</li>
+            <li>1.dawdawdad</li>
+          </ol>
+        </div>
+      </div>
+      <div class="right">
+        <div class="service-intro-card">
+          <p class="title">费用不包含</p>
+          <ol>
+            <li>1.dawdawdad</li>
+            <li>1.dawdawdad</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section6 -->
+  <section class="home-section6">
+    <div class="container">
+      <div class="left">
+        <div class="img-wrapper">
+          <img src="./images/logo.jpeg" alt="" srcset="">
+        </div>
+      </div>
+      <div class="right">
+        <ul class="s6-list">
+          <li class="item">
+            <div class="card">
+              <div class="left">
+                <p class="text">问题1</p>
+              </div>
+              <div class="right">
+                <p class="title">标题</p>
+                <p class="desc">描述内容</p>
+              </div>
+              <a href="" class="link"></a>
+            </div>
+          </li>
+          <li class="item">
+            <div class="card">
+              <div class="left">
+                <p class="text">问题1</p>
+              </div>
+              <div class="right">
+                <p class="title">标题</p>
+                <p class="desc">描述内容</p>
+              </div>
+              <a href="" class="link"></a>
+            </div>
+          </li>
+          <li class="item">
+            <div class="card">
+              <div class="left">
+                <p class="text">问题1</p>
+              </div>
+              <div class="right">
+                <p class="title">标题</p>
+                <p class="desc">描述内容</p>
+              </div>
+              <a href="" class="link"></a>
+            </div>
+          </li>
+          <li class="item">
+            <div class="card">
+              <div class="left">
+                <p class="text">问题1</p>
+              </div>
+              <div class="right">
+                <p class="title">标题</p>
+                <p class="desc">描述内容</p>
+              </div>
+              <a href="" class="link"></a>
+            </div>
+          </li>
+          <li class="item">
+            <div class="card">
+              <div class="left">
+                <p class="text">问题1</p>
+              </div>
+              <div class="right">
+                <p class="title">标题</p>
+                <p class="desc">描述内容</p>
+              </div>
+              <a href="" class="link"></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- section7 -->
+  <section class="home-section7">
+    <div class="section-title">
+      <p class="cn">关于资质</p>
+      <p class="en">qualifications</p>
+    </div>
+    <div class="container">
+      <div class="s7-box">
+        <div class="icon"><img src="" alt=""></div>
+        <p class="context">我们几乎是成都市场上单一的有无害化处理资质的宠物火化服务企业。 您在各个大企业查询平台输入宠灵都能查到我们公司。</p>
+      </div>
+    </div>
+  </section>
+
   <!-- footer -->
-  <footer class="web-footer">
+  <footer class="web-footer none">
     <div class="top">
       <div class="left">
         <nav class="footer-nav">
@@ -107,8 +467,9 @@
       </div>
     </div>
   </footer>
-  <div class="copy-right">
-    <p class="main-text">Copyright © 2016 四川成都宠灵有限公司. All rights reserved. <a href="">蜀ICP备12010316号</a> 闽公网安备35021302000122号</p>
+  <div class="copy-right none">
+    <p class="main-text">Copyright © 2016 四川成都宠灵有限公司. All rights reserved. <a href="">蜀ICP备12010316号</a>
+      闽公网安备35021302000122号</p>
     <div class="footer-phone">
       <a href="" class="number">400-888-0661</a>
       <p class="desc">全国免费客户服务热线</p>
